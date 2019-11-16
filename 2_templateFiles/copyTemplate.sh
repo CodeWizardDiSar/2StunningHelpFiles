@@ -1,6 +1,6 @@
 #!/bin/bash
 
-templatesDir="$HOME/Desktop/2_Github/stunningHelpFiles/2_templateFiles"
+templatesDir="$HOME/Desktop/2_Github/2_stunningHelpFiles/2_templateFiles"
 case $1 in
   Makefile) cp $templatesDir/Makefile $1;;
   *) case "${1##*.}" in
