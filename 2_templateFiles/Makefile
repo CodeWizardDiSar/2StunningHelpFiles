@@ -1,17 +1,12 @@
-sr = ../1_source
-m = main
-a = addExercise
-s = showExercises
-r = removeExercise
-e = ../exercises
-o = ../3_notForMe
+_ = _
 
-all: $(sr)/$(m).hs $(sr)/$(a).hs $(sr)/$(s).hs $(sr)/$(r).hs
-	ghc -o $e -odir $(o) -hidir $(o) $^ 
+all: _
+	_
+
+_:_
 
 clean:
-	rm -f $(o)/* $(e)
+	rm -f $(o)/* _
 
 clean_:
 	rm -f $(o)/*
-
