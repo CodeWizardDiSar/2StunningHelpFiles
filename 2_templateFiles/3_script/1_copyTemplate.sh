@@ -5,7 +5,7 @@ filesDir="1_files"
 dirsDir="2_dirs"
 
 case $1 in
-  Makefile) cp $templatesDir/$filesDir/Makefile $1;;
+  Makefile) cp $templatesDir/$filesDir/4_Makefile $1;;
   *) case "${1##*.}" in
        c) cp $templatesDir/$filesDir/1.c $1;;
        sh) cp $templatesDir/$filesDir/2.sh $1;;
