@@ -1,6 +1,7 @@
 #!/bin/bash
 
 if [ "$#" -ne 3 ]; then
-    echo "Use: $0 dir toBeReplaced withThis"
+  echo "Use: script dir toBeReplaced withThis"
+else
+  find $1 -type f -exec sed -i -e "s/$2/$3/" {} \;
 fi
-find $1 -type f -exec sed -i -e "s/$2/$3/" {} \;
