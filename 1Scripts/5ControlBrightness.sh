@@ -8,6 +8,5 @@ case $1 in
 *) echo "+ or - plz"
 esac
 echo $level > $brightnessFile
-
 brightness=$(echo "scale=2;$level/100" | bc -l)
 xrandr --output eDP-1 --brightness $brightness

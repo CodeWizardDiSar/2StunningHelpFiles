@@ -1,7 +1,7 @@
 #!/bin/bash
 
-templatesDir="$(dirname $0)/../2Templates"
-
+scriptDir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+templatesDir="$scriptDir/../2Templates"
 case $1 in
   Makefile) cp $templatesDir/1Files/4Makefile $1;;
   *) case "${1##*.}" in
