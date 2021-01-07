@@ -8,7 +8,7 @@ case $1 in
        sh)  cp $scriptDir/Files/2.sh $1;chmod 700 $1;vim $1;;
        hs)  cp $scriptDir/Files/3.hs $1;vim $1;;
        py)  cp $scriptDir/Files/4.py $1;chmod 700 $1;vim $1;;
-       ltx) cp -r $scriptDir/Directories/1Latex $1; vim $1/1Code/1.tex;;
+       ltx) cp -r $scriptDir/Directories/Latex $1; vim $1/1Code/1.tex;;
        *) echo "template for the extention ${1##*.} not supported"
      esac
 esac
