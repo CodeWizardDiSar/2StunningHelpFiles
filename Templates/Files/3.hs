@@ -1,4 +1,3 @@
-{-# LANGUAGE LambdaCase #-} 
 module _ where
 --import _._
 

@@ -6,7 +6,7 @@ all: _
 _:_
 
 clean:
-	rm -f $(o)/* _
+	rm -f _ _
 
 clean_:
-	rm -f $(o)/*
+	rm -f _
