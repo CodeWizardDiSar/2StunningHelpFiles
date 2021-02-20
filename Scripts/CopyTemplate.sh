@@ -1,6 +1,6 @@
 #!/bin/bash
 
-tmps="$Stunning/StunningHelpFiles/Templates"
+tmps="$HOME/StunningHelpFiles/Templates"
 
 case $1 in
   Makefile) cp Files/5Makefile $1;;
